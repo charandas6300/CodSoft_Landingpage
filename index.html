@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coffee Landing Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>Coffee Delight</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#coffee">Coffee Selection</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div id="home" class="hero">
+        <img src="coffee-hero.jpg" alt="Coffee Hero Image">
+        <h2>Welcome to Coffee Delight</h2>
+        <p>Experience the finest coffee crafted just for you.</p>
+    </div>
+
+    <div id="coffee" class="coffee-selection">
+        <h2>Coffee Selection</h2>
+        <div class="coffee-item">
+            <img src="coffee1.jpg" alt="Coffee 1">
+            <h3>Espresso</h3>
+            <p>A strong and concentrated coffee served in small shots.</p>
+        </div>
+        <div class="coffee-item">
+            <img src="coffee2.jpg" alt="Coffee 2">
+            <h3>Cappuccino</h3>
+            <p>Espresso mixed with equal parts of steamed milk and milk foam.</p>
+        </div>
+        <div class="coffee-item">
+            <img src="coffee3.jpg" alt="Coffee 3">
+            <h3>Americano</h3>
+            <p>Espresso with added hot water, resulting in a similar strength to, but different flavor from brewed coffee.</p>
+        </div>
+    </div>
+
+    <div id="contact" class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

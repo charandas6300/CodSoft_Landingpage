@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3E2723;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4E342E;
+    padding: 0.5em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    height: 600px;
+    width: 100%;
+    
+}
+
+.coffee-selection {
+    text-align: center;
+    padding: 2em;
+}
+
+.coffee-item {
+    margin: 1em;
+    padding: 1em;
+    background-color: #FFF3E0;
+    border-radius: 8px;
+}
+
+.coffee-item img {
+    width: 250px;
+    height: 250px;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 2em;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 1em 0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
